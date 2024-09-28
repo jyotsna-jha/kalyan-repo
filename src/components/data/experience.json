@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "role": "Robotics, Hardware, Artificial Intelligence and Machine Learning Instructor",
+      "organisation": "Google",
+      "startDate": "Jan, 2023",
+      "endDate": "Present,",
+      "location": "Arniko International College",
+      "experiences": [
+        "Guided students in building and programming robots.",
+        "Created materials on robotics and hardware integration."
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Electronics, Hardware, ML and AI Project lead",
+      "organisation": "Mirosoft",
+      "startDate": "Aug, 2022",
+      "endDate": "Present,",
+      "location": "Robotics & Automation Center, IOE, Thapathali Campus",
+      "experiences": [
+        "Coordinated electronics, hardware, ML, and AI development efforts.",
+        "Managed timelines and deliverables for optimal outcomes."
+      ]
+    },
+    {
+      "id": 3,
+      "role": "Vice secretary at Leo club of Kathmandu Aarambha Deurali ",
+      "organisation": "Netflix",
+      "startDate": "Aug 2024",
+      "endDate": "Present,",
+      "location": "Leo club of Kathmandu Aarambha Deurali",
+      "experiences": [
+        "Worked on Nextflix payment system",
+        "Helped to create UI for video player"
+      ]
+    }
+  ]

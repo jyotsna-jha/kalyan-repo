@@ -1,0 +1,67 @@
+[
+    {
+      "key": 1,
+      "title": "Inventory Management",
+      "imageSrc":"/assets/projects/mp.jpg",
+      "description": "RFID-Integrated Smart Inventory System with Instant Web Updates. lorem",
+      "demo": "https://www.researchgate.net/publication/380531734_RFID-Integrated_Smart_Inventory_System_with_Instant_Web_Updates",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 2,
+      "title": "Autonomous Drone",
+      "imageSrc": "/assets/projects/drone.jpg",
+      "description": "Autonomous drones for obstacle detection, navigation and avoidence in cluttered enviroment",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 3,
+      "title": "Micromouse",
+      "imageSrc": "/assets/projects/micromouse2.jpg",
+      "description": "A Micromouse bot autonomously navigates mazes using sensors and algorithms.",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+   
+    {
+      "key": 4,
+      "title": "Micromouse Competition",
+      "imageSrc": "/assets/projects/IMC_first_runnerup.jpg",
+      "description": "First runner-up at the Micromouse competition, Techfest IIT Bombay 2023",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 4,
+      "title": "Hardware Instructor",
+      "imageSrc": "/assets/projects/Locus_tutor.jpg",
+      "description": "Instructor in 8 days long Hardware Fellowship, Locus, Pulchowk Campus",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 4,
+      "title": "Hult Prize",
+      "imageSrc": "/assets/projects/Hultprize_semifinalist.jpeg",
+      "description": "Semi Finalist at Hult prize held at IOE, Pulchowk Campus, 12th feb 2022",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 4,
+      "title": "Instructor",
+      "imageSrc": "/assets/projects/Tutoring.jpeg",
+      "description": "Trainer for the Sastram secondary school-based robotics training programs",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "key": 4,
+      "title": "React Firebase App",
+      "imageSrc": "/assets/projects/mp.jpg",
+      "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
