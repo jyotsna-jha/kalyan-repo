@@ -37,7 +37,7 @@ const Home = () => {
 
           <a
             href={pdf}
-            download="kalyan_cv.pdf"
+            download="k.pdf"
             className="btn btn-outline-warning my-3"
           >
             Download Resume
