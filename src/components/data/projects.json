@@ -8,7 +8,6 @@
     "source": "https://www.github.com",
     "type": "video"
   },
-
   {
     "key":2,
     "title": "RFID Integrated Smart Inventory System",
@@ -25,7 +24,6 @@
     "source": "https://www.github.com",
     "type": "image"
   },
-  
   {
     "key":4,
     "title": "Micromouse",
@@ -34,7 +32,6 @@
     "source": "https://www.github.com",
     "type": "video"
   },
- 
     {
       "key": 5,
       "title": "Autonomous Drone",
@@ -52,7 +49,6 @@
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
-   
     {
       "key": 7,
       "title": "Micromouse Competition",
