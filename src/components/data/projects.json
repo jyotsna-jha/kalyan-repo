@@ -1,67 +1,101 @@
 [
+
+  {
+    "key":1,
+    "title": "Sanitary Pad Vending Machine",
+    "imageSrc": "/assets/projects/vending.mp4",
+    "demo": "https://drive.google.com/drive/folders/12Mks0IpWveqdrdoXvj3zTwPLmsxdNc1Q",
+    "source": "https://www.github.com",
+    "type": "video"
+  },
+ 
+
+  {
+    "key":2,
+    "title": "RFID Integrated Smart Inventory System",
+    "imageSrc": "/assets/projects/rfid-vdo.mp4",
+    "demo": "https://drive.google.com/drive/folders/1gZPomISNsFJJoCHO_1FoFxbu6WTf-sRM",
+    "source": "https://www.github.com",
+    "type": "video"
+  },
+  {
+    "key":3,
+    "title": "Electric Cycle National Innovation Center",
+    "imageSrc": "/assets/projects/electric-cycle.jpg",
+    "demo": "https://drive.google.com/drive/folders/12Mks0IpWveqdrdoXvj3zTwPLmsxdNc1Q",
+    "source": "https://www.github.com",
+    "type": "image"
+  },
+  {
+    "key":4,
+    "title": "Solar Tracking System",
+    "imageSrc": "/assets/projects/solartracking.mp4",
+    "demo": "https://drive.google.com/drive/folders/12Mks0IpWveqdrdoXvj3zTwPLmsxdNc1Q",
+    "source": "https://www.github.com",
+    "type": "video"
+  },
+  {
+    "key":5,
+    "title": "Micromouse",
+    "imageSrc": "/assets/projects/micromouse.mp4",
+    "demo": "https://drive.google.com/drive/folders/12wYTXPPkAQEDZPgEaXnd3q9QJt2lO1hM",
+    "source": "https://www.github.com",
+    "type": "video"
+  },
+ 
     {
-      "key": 1,
-      "title": "Inventory Management",
-      "imageSrc":"/assets/projects/mp.jpg",
-      "description": "RFID-Integrated Smart Inventory System with Instant Web Updates. lorem",
-      "demo": "https://www.researchgate.net/publication/380531734_RFID-Integrated_Smart_Inventory_System_with_Instant_Web_Updates",
-      "source": "https://www.github.com"
-    },
-    {
-      "key": 2,
+      "key": 6,
       "title": "Autonomous Drone",
       "imageSrc": "/assets/projects/drone.jpg",
-      "description": "Autonomous drones for obstacle detection, navigation and avoidence in cluttered enviroment",
+      "type":"image",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "key": 3,
+      "key": 7,
       "title": "Micromouse",
       "imageSrc": "/assets/projects/micromouse2.jpg",
+      "type":"image",
       "description": "A Micromouse bot autonomously navigates mazes using sensors and algorithms.",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
    
     {
-      "key": 4,
+      "key": 8,
       "title": "Micromouse Competition",
       "imageSrc": "/assets/projects/IMC_first_runnerup.jpg",
+      "type":"image",
       "description": "First runner-up at the Micromouse competition, Techfest IIT Bombay 2023",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "key": 4,
+      "key": 9,
       "title": "Hardware Instructor",
       "imageSrc": "/assets/projects/Locus_tutor.jpg",
+      "type":"image",
       "description": "Instructor in 8 days long Hardware Fellowship, Locus, Pulchowk Campus",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "key": 4,
+      "key": 10,
       "title": "Hult Prize",
       "imageSrc": "/assets/projects/Hultprize_semifinalist.jpeg",
+      "type":"image",
       "description": "Semi Finalist at Hult prize held at IOE, Pulchowk Campus, 12th feb 2022",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "key": 4,
+      "key": 11,
       "title": "Instructor",
       "imageSrc": "/assets/projects/Tutoring.jpeg",
+      "type":"image",
       "description": "Trainer for the Sastram secondary school-based robotics training programs",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
-    },
-    {
-      "key": 4,
-      "title": "React Firebase App",
-      "imageSrc": "/assets/projects/mp.jpg",
-      "description": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
     }
+   
   ]
