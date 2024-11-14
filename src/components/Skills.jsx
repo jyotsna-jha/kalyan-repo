@@ -1,31 +1,25 @@
-[
-  {
-    "title": "C Programming",
-    "imageSrc": "skills/cp.png"
-  },
-  {
-    "title": "C++",
-    "imageSrc": "skills/cpp.png"
-  },
-  {
-    "title": "PCB and Circuit Designing",
-    "imageSrc": "skills/pcb2.jpg"
-  },
+import React from "react";
+import skills from "./data/skills.json";
 
-  {
-    "title": "Python",
-    "imageSrc": "skills/python.jpg"
-  },
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": "skills/javascript.png"
-    }
-  ]
+const Skills = () => {
+  return (
+    <div className="container skills" id="skills">
+      <h1>SKILLS</h1>
+      <div className="items">
+        {skills.map((data) => (
+          <div
+            className="item"
+            key={data.id}
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
+            <img src={`/assets/${data.imageSrc}`} alt="" />
+            <h3>{data.title}</h3>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

@@ -1,14 +1,5 @@
 [
-  {
-    "title": "Arduino",
-    "imageSrc": "skills/arduino.png"
-  },
 
-  {
-    "title": "Node MCU",
-    "imageSrc": "skills/node2.png"
-  },
-  
 
   {
     "title": "C Programming",
@@ -38,25 +29,10 @@
     {
       "title": "JavaScript",
       "imageSrc": "skills/javascript.png"
-    },
+    }
    
    
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
-    }
-    ,
-    {
-      "title": "SQL",
-      "imageSrc": "skills/sql.png"
-    },
-    {
-      "title": "Soldering and Desoldering",
-      "imageSrc": "skills/s3.jpg"
-    }
+   
+   
    
   ]

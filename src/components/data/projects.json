@@ -8,6 +8,7 @@
     "source": "https://www.github.com",
     "type": "video"
   },
+ 
   {
     "key":2,
     "title": "RFID Integrated Smart Inventory System",
@@ -26,14 +27,23 @@
   },
   {
     "key":4,
+    "title": "Solar Tracking System",
+    "imageSrc": "/assets/projects/solartracking.mp4",
+    "demo": "https://drive.google.com/drive/folders/12Mks0IpWveqdrdoXvj3zTwPLmsxdNc1Q",
+    "source": "https://www.github.com",
+    "type": "video"
+  },
+  {
+    "key":5,
     "title": "Micromouse",
     "imageSrc": "/assets/projects/micromouse.mp4",
     "demo": "https://drive.google.com/drive/folders/12wYTXPPkAQEDZPgEaXnd3q9QJt2lO1hM",
     "source": "https://www.github.com",
     "type": "video"
   },
+ 
     {
-      "key": 5,
+      "key": 6,
       "title": "Autonomous Drone",
       "imageSrc": "/assets/projects/drone.jpg",
       "type":"image",
@@ -41,7 +51,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 6,
+      "key": 7,
       "title": "Micromouse",
       "imageSrc": "/assets/projects/micromouse2.jpg",
       "type":"image",
@@ -49,17 +59,18 @@
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
+   
     {
-      "key": 7,
+      "key": 8,
       "title": "Micromouse Competition",
-      "imageSrc": "/assets/projects/IMC_first_runnerup.jpg",
+      "imageSrc": "/assets/projects/micromouse.jpg",
       "type":"image",
       "description": "First runner-up at the Micromouse competition, Techfest IIT Bombay 2023",
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     },
     {
-      "key": 8,
+      "key": 9,
       "title": "Hardware Instructor",
       "imageSrc": "/assets/projects/Locus_tutor.jpg",
       "type":"image",
@@ -68,7 +79,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 9,
+      "key": 10,
       "title": "Hult Prize",
       "imageSrc": "/assets/projects/Hultprize_semifinalist.jpeg",
       "type":"image",
@@ -77,7 +88,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 10,
+      "key": 11,
       "title": "Instructor",
       "imageSrc": "/assets/projects/Tutoring.jpeg",
       "type":"image",
