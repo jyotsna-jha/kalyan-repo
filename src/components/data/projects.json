@@ -26,16 +26,9 @@
     "source": "https://www.github.com",
     "type": "image"
   },
+  
   {
     "key":4,
-    "title": "Solar Tracking System",
-    "imageSrc": "/assets/projects/solartracking.mp4",
-    "demo": "https://drive.google.com/drive/folders/12Mks0IpWveqdrdoXvj3zTwPLmsxdNc1Q",
-    "source": "https://www.github.com",
-    "type": "video"
-  },
-  {
-    "key":5,
     "title": "Micromouse",
     "imageSrc": "/assets/projects/micromouse.mp4",
     "demo": "https://drive.google.com/drive/folders/12wYTXPPkAQEDZPgEaXnd3q9QJt2lO1hM",
@@ -44,7 +37,7 @@
   },
  
     {
-      "key": 6,
+      "key": 5,
       "title": "Autonomous Drone",
       "imageSrc": "/assets/projects/drone.jpg",
       "type":"image",
@@ -52,7 +45,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 7,
+      "key": 6,
       "title": "Micromouse",
       "imageSrc": "/assets/projects/micromouse2.jpg",
       "type":"image",
@@ -62,7 +55,7 @@
     },
    
     {
-      "key": 8,
+      "key": 7,
       "title": "Micromouse Competition",
       "imageSrc": "/assets/projects/IMC_first_runnerup.jpg",
       "type":"image",
@@ -71,7 +64,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 9,
+      "key": 8,
       "title": "Hardware Instructor",
       "imageSrc": "/assets/projects/Locus_tutor.jpg",
       "type":"image",
@@ -80,7 +73,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 10,
+      "key": 9,
       "title": "Hult Prize",
       "imageSrc": "/assets/projects/Hultprize_semifinalist.jpeg",
       "type":"image",
@@ -89,7 +82,7 @@
       "source": "https://www.github.com"
     },
     {
-      "key": 11,
+      "key": 10,
       "title": "Instructor",
       "imageSrc": "/assets/projects/Tutoring.jpeg",
       "type":"image",
