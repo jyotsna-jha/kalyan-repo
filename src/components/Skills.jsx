@@ -1,9 +1,4 @@
 [
- 
-
- 
-  
-
   {
     "title": "C Programming",
     "imageSrc": "skills/cp.png"
@@ -33,9 +28,4 @@
       "title": "JavaScript",
       "imageSrc": "skills/javascript.png"
     }
-   
-   
-   
-   
-   
   ]
