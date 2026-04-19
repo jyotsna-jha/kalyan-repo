@@ -702,22 +702,25 @@
 
     const grid = document.getElementById("projectsGrid");
     const featuredHost = document.getElementById("featuredProject");
-
     function mediaHTML(p, forModal = false) {
-      if (p.type === "video") {
-        return forModal
-          ? `<video controls autoplay playsinline><source src="${p.src}" type="video/mp4"></video>`
-          : `<video muted autoplay loop playsinline><source src="${p.src}" type="video/mp4"></video>`;
-      }
+        if (p.type === "embed") {
+            return `<iframe src="${p.embedUrl}" width="100%" height="100%" allow="autoplay" allowfullscreen loading="lazy" style="border:0;"></iframe>`;
+        }
 
-      if (p.type === "gallery") {
-        const imgs = p.gallery
-          .map((g, i) => `<img src="${g}" alt="${p.title}" class="${i === 0 ? "active" : ""}">`)
-          .join("");
-        return `<div class="fxSlide">${imgs}</div>`;
-      }
+        if (p.type === "video") {
+            return forModal
+                ? `<video controls autoplay playsinline><source src="${p.src}" type="video/mp4"></video>`
+                : `<video muted autoplay loop playsinline><source src="${p.src}" type="video/mp4"></video>`;
+        }
 
-      return `<img src="${p.src}" alt="${p.title}" loading="lazy">`;
+        if (p.type === "gallery") {
+            const imgs = p.gallery
+                .map((g, i) => `<img src="${g}" alt="${p.title}" class="${i === 0 ? "active" : ""}">`)
+                .join("");
+            return `<div class="fxSlide">${imgs}</div>`;
+        }
+
+        return `<img src="${p.src}" alt="${p.title}" loading="lazy">`;
     }
 
     function chipsHTML(techArr) {
