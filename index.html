@@ -599,8 +599,8 @@
         id: 101,
         category: "uav",
         title: "Vision-Based Autonomous UAV for Obstacle Detection, Avoidance, and Navigation in Cluttered Environments",
-        type: "embed",
-        embedUrl: "https://drive.google.com/file/d/13sajZWCucZmXE-UgOPYlBSgKJxKLlvSJ/preview",
+        type: "video",
+        src: "./assets/projects/visionUAV.mp4",
         short: "Vision-based autonomous UAV navigation using onboard perception and ROS.",
         long:
           "Developed a vision-based autonomous UAV system capable of navigating safely in cluttered environments using onboard perception. Focused on real-time obstacle detection and avoidance using camera + depth integrated within a ROS-based framework. Perception outputs supported autonomous navigation and path planning under constrained compute.\n\nEmphasis: system integration, robustness, and real-time performance for indoor and low-altitude flight.",
@@ -702,25 +702,22 @@
 
     const grid = document.getElementById("projectsGrid");
     const featuredHost = document.getElementById("featuredProject");
+
     function mediaHTML(p, forModal = false) {
-        if (p.type === "embed") {
-            return `<iframe src="${p.embedUrl}" width="100%" height="100%" allow="autoplay" allowfullscreen loading="lazy" style="border:0;"></iframe>`;
-        }
+      if (p.type === "video") {
+        return forModal
+          ? `<video controls autoplay playsinline><source src="${p.src}" type="video/mp4"></video>`
+          : `<video muted autoplay loop playsinline><source src="${p.src}" type="video/mp4"></video>`;
+      }
 
-        if (p.type === "video") {
-            return forModal
-                ? `<video controls autoplay playsinline><source src="${p.src}" type="video/mp4"></video>`
-                : `<video muted autoplay loop playsinline><source src="${p.src}" type="video/mp4"></video>`;
-        }
+      if (p.type === "gallery") {
+        const imgs = p.gallery
+          .map((g, i) => `<img src="${g}" alt="${p.title}" class="${i === 0 ? "active" : ""}">`)
+          .join("");
+        return `<div class="fxSlide">${imgs}</div>`;
+      }
 
-        if (p.type === "gallery") {
-            const imgs = p.gallery
-                .map((g, i) => `<img src="${g}" alt="${p.title}" class="${i === 0 ? "active" : ""}">`)
-                .join("");
-            return `<div class="fxSlide">${imgs}</div>`;
-        }
-
-        return `<img src="${p.src}" alt="${p.title}" loading="lazy">`;
+      return `<img src="${p.src}" alt="${p.title}" loading="lazy">`;
     }
 
     function chipsHTML(techArr) {
